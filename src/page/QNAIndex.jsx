@@ -1,14 +1,15 @@
+
 import BasicLayout from "../layout/BasicLayout.jsx";
 import {Outlet} from "react-router-dom";
 
-function AdminIndex() {
+function QnaIndex() {
     return (
         <BasicLayout>
-            <div className="flex-1 p-10 bg-green-50">
-                <Outlet />
-            </div>
+        <div>
+            <Outlet/>
+        </div>
         </BasicLayout>
     );
 }
 
-export default AdminIndex;
+export default QnaIndex;

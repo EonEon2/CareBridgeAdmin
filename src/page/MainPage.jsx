@@ -1,10 +1,12 @@
-import MainComponent from "../component/MainComponent.jsx";
+import BasicLayout from "../layout/BasicLayout.jsx";
+
 
 function MainPage() {
     return (
         <div>
+            <BasicLayout>
             <div>Main Page</div>
-            <MainComponent></MainComponent>
+            </BasicLayout>
         </div>
     );
 }

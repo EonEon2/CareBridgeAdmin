@@ -1,4 +1,4 @@
-import BasicLayout from "../layout/BasicLayout.jsx";
+
 
 function MainComponent() {
     return (
